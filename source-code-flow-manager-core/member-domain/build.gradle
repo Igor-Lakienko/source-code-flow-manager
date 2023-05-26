@@ -1,0 +1,12 @@
+dependencies {
+    // Spring dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+    // Third-party dependencies
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+
+    // Test dependencies
+    testCompileOnly 'org.projectlombok:lombok'
+    testAnnotationProcessor 'org.projectlombok:lombok'
+}
